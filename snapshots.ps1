@@ -1,0 +1,1 @@
+﻿Get-VM | Get-Snapshot | Select VM,Created,Name,SizeMB | FT | out-file "G:\snaps.txt"

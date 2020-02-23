@@ -1,0 +1,1 @@
+ping.exe -t vcptads803.kzlnet.com|Foreach{"{0} - {1}" -f (Get-Date),$_}|out-file G:\vcptads803_Output.txt
